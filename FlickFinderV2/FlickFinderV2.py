@@ -98,9 +98,6 @@ class FlickFinderV2:
         #Calling compareRuntimes function
         self.compareRuntimes(IDAndTitleAndLength, movieTitle, movieRuntime)
 
-        #sleeping for 5 seconds
-        time.sleep(5)
-
     def compareRuntimes(self, IDAndTitleAndLength, movieTitle, movieRuntime):
         """This function checks to to see if runtimes found match what was read in from the input file
 
